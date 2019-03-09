@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
                  editTextC1_6_val = editTextC1_6.text.toString().toDouble()
             }
 
-            if(editTextC1_7.text.length != 0) {
+            /*if(editTextC1_7.text.length != 0) {
                 editTextC1_7_val = editTextC1_7.text.toString().toDouble()
             }
 
@@ -125,7 +125,7 @@ class MainActivity : AppCompatActivity() {
 
             if(editTextC1_7_S.text.length != 0) {
                 editTextC1_7_S_val = editTextC1_7_S.text.toString().toInt()
-            }
+            }*/
 
 
             if(editTextC1_2_val != 0 && editTextC1_3_val != 0) {
@@ -176,7 +176,7 @@ class MainActivity : AppCompatActivity() {
                 Log.i("----editTextC1_6_val", editTextC1_6_val.toString())
             }
 
-            if(checkBoxDis.isChecked){
+            /*if(checkBoxDis.isChecked){
                 if(editTextC1_6_val != 0.0 && editTextC1_3_val != 0 && editTextC1_2_val != 0) {
 
                     editTextC1_6_val = editTextC1_6_val - ((editTextC1_2_val * editTextC1_3_val) / 100)
@@ -187,9 +187,9 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 Log.i("-----cccccccccccccccc", "cccccccccccccccccccc")
-            }
+            }*/
 
-            if(checkBoxDis2.isChecked){
+            /*if(checkBoxDis2.isChecked){
                 if(editTextC3_6_val != 0.0 && editTextC2_3_val != 0 && editTextC3_2_val != 0) {
 
                     editTextC3_6_val = editTextC3_6_val - ((editTextC3_2_val * editTextC2_3_val) / 100)
@@ -197,9 +197,9 @@ class MainActivity : AppCompatActivity() {
                     editTextC3_6.text = formatDecimalToString.format(editTextC3_6_val).toString()
 
                 }
-            }
+            }*/
 
-            if(editTextC1_6_val != 0.0 && editTextC1_2_val != 0 && editTextC3_2_val != 0) {
+            /*if(editTextC1_6_val != 0.0 && editTextC1_2_val != 0 && editTextC3_2_val != 0) {
 
                 editTextC1_7_val = editTextC1_6_val - (editTextC1_2_val + editTextC3_2_val)
 
@@ -210,10 +210,10 @@ class MainActivity : AppCompatActivity() {
                 Log.i("editTextC3_2_val", editTextC3_2_val.toString())
 
                 Log.i("-----editTextC1_7_val", editTextC1_7_val.toString())
-            }
+            }*/
 
 
-            if(editTextC1_6_val != 0.0 && editTextC2_5_val != 0.0 && editTextC2_3_val != 0 && editTextC2_3_2_val != 0) {
+            /*if(editTextC1_6_val != 0.0 && editTextC2_5_val != 0.0 && editTextC2_3_val != 0 && editTextC2_3_2_val != 0) {
 
                 if(checkBoxDis2.isChecked) {
                     editTextC_test = (((editTextC1_6_val + ((((editTextC1_6_val / (editTextC2_5_val + 1)) - editTextC2_3_2_val) * editTextC2_3_val) / 100)) / (editTextC2_5_val + 1)) - editTextC2_3_2_val)
@@ -263,9 +263,9 @@ class MainActivity : AppCompatActivity() {
 
                 editTextC2_2.text = formatDecimalToString.format(editTextC2_2_val).toString()
 
-            }
+            }*/
 
-            if(editTextC3_2_val != 0 && editTextC2_3_val != 0) {
+            /*if(editTextC3_2_val != 0 && editTextC2_3_val != 0) {
 
                 if(editTextC2_3_2_val != 0) {
 
@@ -336,7 +336,7 @@ class MainActivity : AppCompatActivity() {
                 Log.i("editTextC1_2_val", editTextC1_2_val.toString())
 
                 Log.i("-----editTextC3_7_val", editTextC3_7_val.toString())
-            }
+            }*/
 
 
 
@@ -361,7 +361,7 @@ class MainActivity : AppCompatActivity() {
         })
 
 
-        editTextC2_3.afterTextChanged({
+        /*editTextC2_3.afterTextChanged({
 
             sumAll()
         })
@@ -385,7 +385,7 @@ class MainActivity : AppCompatActivity() {
 
         checkBoxDis2.setOnCheckedChangeListener { buttonView, isChecked ->
             sumAll()
-        }
+        }*/
 
 
     }
