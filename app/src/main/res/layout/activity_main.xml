@@ -20,8 +20,7 @@
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_vertical"
+        android:layout_height="726dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +65,7 @@
         </TableRow>-->
 
         <TableRow
+            android:layout_marginTop="50sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -77,11 +77,11 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="4" />
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1" />
 
             <!--<TextView
                 android:id="@+id/editTextC2_2"
@@ -97,6 +97,7 @@
         </TableRow>
 
         <TableRow
+            android:layout_marginBottom="40sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -106,9 +107,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="ทุน"
-                android:textSize="18sp"
                 android:textAlignment="textEnd"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="30sp" />
 
             <EditText
                 android:id="@+id/editTextC1_2"
@@ -116,12 +117,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:layout_weight="4"
+                android:layout_weight="1"
                 android:ems="10"
                 android:inputType="number"
                 android:textAlignment="textEnd"
                 android:textColor="#9C27B0"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
 
             <!--<EditText
                 android:id="@+id/editTextC3_2"
@@ -265,6 +266,7 @@
         </TableRow>-->
 
         <TableRow
+            android:layout_marginBottom="40sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -274,9 +276,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="ราคา"
-                android:textSize="18sp"
                 android:textAlignment="textEnd"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="30sp" />
 
             <EditText
                 android:id="@+id/editTextC1_5"
@@ -284,12 +286,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:layout_weight="4"
+                android:layout_weight="1"
                 android:ems="10"
                 android:inputType="numberDecimal"
                 android:textAlignment="textEnd"
                 android:textColor="#4CAF50"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
 
             <!--<EditText
                 android:id="@+id/editTextC2_5"
@@ -314,19 +316,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="ได้เสีย"
+                android:text="ได้"
                 android:textAlignment="textEnd"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/editTextC1_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:layout_weight="4"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
                 android:background="#FF5722"
                 android:textAlignment="textEnd"
                 android:textColor="#ffffff"
