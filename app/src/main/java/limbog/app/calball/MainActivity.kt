@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                  editTextC1_2_val = editTextC1_2.text.toString().toInt()
             }
 
-            if(editTextC1_3.text.length != 0) {
+            /*if(editTextC1_3.text.length != 0) {
                  editTextC1_3_val = editTextC1_3.text.toString().toInt()
             }else{
                 editTextC1_3_val = 0
@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
 
             if(editTextC1_4.text.length != 0) {
                  editTextC1_4_val = editTextC1_4.text.toString().toInt()
-            }
+            }*/
 
             if(editTextC1_5.text.length != 0) {
                  editTextC1_5_val = editTextC1_5.text.toString().toDouble()
@@ -139,7 +139,7 @@ class MainActivity : AppCompatActivity() {
 
                 }
 
-                editTextC1_4.text = (editTextC1_4_val).toString()
+                //editTextC1_4.text = (editTextC1_4_val).toString()
 
                 //editTextC1_4_val = editTextC1_2_val + ((editTextC1_2_val * editTextC1_3_val) / 100)
 
@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
                     editTextC1_4_val = editTextC1_2_val
 
                 }
-                editTextC1_4.text = (editTextC1_4_val).toString()
+                //editTextC1_4.text = (editTextC1_4_val).toString()
             }
 
 
@@ -347,13 +347,13 @@ class MainActivity : AppCompatActivity() {
             sumAll()
         })
 
-        editTextC1_3.afterTextChanged({
+        /*editTextC1_3.afterTextChanged({
             sumAll()
         })
 
         editTextC1_3_2.afterTextChanged({
             sumAll()
-        })
+        })*/
 
         editTextC1_5.afterTextChanged({
 
